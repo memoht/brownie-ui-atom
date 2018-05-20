@@ -1,7 +1,7 @@
 {
   "name": "brownie-ui",
   "theme": "ui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A brown based UI theme for Atom to compliment brownie-syntax",
   "author": "Guillermo Haas-Thompson",
   "keywords": [
