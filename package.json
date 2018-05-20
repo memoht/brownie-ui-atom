@@ -2,14 +2,15 @@
   "name": "brownie-ui",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "A brown based theme for Atom to compliment brownie-syntax",
+  "description": "A brown based UI theme for Atom to compliment brownie-syntax",
+  "author": "Guillermo Haas-Thompson",
   "keywords": [
     "ui",
     "theme",
     "brownie",
-    "brownie-syntax"
+    "brownie-ui"
   ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
+  "repository": "https://github.com/memoht/brownie-ui-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
