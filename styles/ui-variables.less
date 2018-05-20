@@ -12,29 +12,29 @@
 
 
 // Text Colors
-@text-color:           hsl(0,0%,66%);
-@text-color-subtle:    hsl(0,0%,50%);
+@text-color:           rgb(176, 160, 144);
+@text-color-subtle:    rgb(134, 107, 80);
 @text-color-highlight: hsl(0,0%,94%);
 @text-color-selected:  hsl(0,0%,100%);
 
-@text-color-info:    hsl(219,  79%, 66%);
-@text-color-success: hsl(140,  44%, 62%);
-@text-color-warning: hsl( 36,  60%, 72%);
-@text-color-error:   hsl(  9, 100%, 64%);
+@text-color-info:    rgb(73, 151, 154);
+@text-color-success: rgb(179, 188, 30);
+@text-color-warning: rgb(217, 108, 57);
+@text-color-error:   rgb(182, 43, 43);
 
 // Background colors
-@background-color-info:    hsl(208, 100%, 50%);
-@background-color-success: hsl(160,  70%, 36%);
-@background-color-warning: hsl(32,   60%, 50%);
-@background-color-error:   hsl(0,    70%, 50%);
+@background-color-info:    rgb(134, 107, 80);
+@background-color-success: rgb(179, 188, 30);
+@background-color-warning: rgb(217, 108, 57);
+@background-color-error:   rgb(186, 14, 24);
 
 @background-color-highlight: lighten(@base-background-color, 5%);
 @background-color-selected:  lighten(@base-background-color, 10%);
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: rgb(46,36,36);
-@base-border-color:     darken(@base-background-color, 8%);
+@base-background-color: rgba(46, 36, 36, 1.0);
+@base-border-color:     darken(@base-background-color, 5%);
 
 // Component colors
 @pane-item-background-color: @base-background-color;
@@ -70,11 +70,11 @@
 @tree-view-border-color:     @base-border-color;
 
 // Site colors
-@ui-site-color-1: hsl(208, 100%, 50%); // blue
-@ui-site-color-2: hsl(160,  70%, 42%); // green
-@ui-site-color-3: hsl(32,   60%, 50%); // orange
+@ui-site-color-1: rgb(73, 151, 154);    // blue
+@ui-site-color-2: rgb(121, 164, 68);   // green
+@ui-site-color-3: rgb(246, 136, 31);   // orange
 @ui-site-color-4: #D831B0;             // pink
-@ui-site-color-5: #EBDD5B;             // yellow
+@ui-site-color-5: #D9BA1E;             // yellow
 
 // Sizes
 @font-size: 12px;
@@ -87,8 +87,8 @@
 @component-icon-size: 16px;
 @component-line-height: 25px;
 
-@tab-height: 30px;
+@tab-height: 35px;
 
 // Misc
-@component-border-radius: 2px;
+@component-border-radius: 3px;
 @font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
