@@ -1,4 +1,4 @@
-# Atom UI Theme Template
+# Brownie UI Theme
 
 This is a __starter template__ for creating an Atom UI theme.
 

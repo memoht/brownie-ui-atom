@@ -1,11 +1,13 @@
 {
-  "name": "ui-theme-template",
+  "name": "brownie-ui",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "A short description of your UI theme",
+  "description": "A brown based theme for Atom to compliment brownie-syntax",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "brownie",
+    "brownie-syntax"
   ],
   "repository": "https://github.com/atom-community/ui-theme-template",
   "license": "MIT",
